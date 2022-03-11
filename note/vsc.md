@@ -35,8 +35,7 @@
 * Ctrl + H 查找替换
   >点击“全部替换”或者按Ctrl+Alt+Enter键就可以替换全部内容
 
-## vsc 同步
-
-    >登录  
-    上传：Shift+Alt+U、
-    下载：Shift+Alt+D
+* vsc 同步
+  >登录  
+  上传：Shift+Alt+U、  
+  下载：Shift+Alt+D
