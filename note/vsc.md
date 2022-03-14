@@ -1,5 +1,21 @@
 # VSC 笔记
 
+## github屏蔽解决
+
+### 墙屏蔽
+<!-- markdownlint-disable md013 -->
+1. 访问 [http://github.global.ssl.fast...](http://github.global.ssl.fastly.net.ipaddress.com/#ipinfo)获取cdn域名以及IP地址
+2. 访问 [http://github.com.ipaddress.c...](https://github.com.ipaddress.com/#ipinfo) 获取cdn域名以及IP地址
+
+3. 修改hosts
+
+    ```hosts
+       # fix git clone github project failed
+    140.82.113.3 github.com
+    199.232.5.194 github.global.ssl.fastly.net
+    192.30.253.120  codeload.github.com
+    ```
+
 ## 快捷键
 
 * 行复制：Ctrl + c
@@ -19,11 +35,11 @@
 * 块注释：Alt + Shit + A；  
 * 格式化：Alt + Shit + F。
 
-* Ctrl + ]/[   
+* Ctrl + ]/[
 
   >即可完成整行的向右缩进一个单位 / 向左缩进一个单位。缩进完成后，会显示列对齐线帮助你把握缩进信息。同样地，选择多行的时候，可以同时对多行进行缩进。  
 
-* Alt + → / ← 
+* Alt + → / ←
   >切换到下一个 / 上一个编辑点。  
 
 * Ctrl + Shift + \
