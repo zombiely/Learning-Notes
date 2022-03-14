@@ -1,13 +1,18 @@
 # **MARKDOWN**
 
 <font face=微软雅黑>
-<!-- <font size=4>   -->
+<!-- <font size=4>   -->  
 
-**Markdownlint**  
+## [Markdown 备忘单_w3cschool](https://www.w3cschool.cn/markdownyfsm/markdownyfsm-txnu3kek.html)
+
+</br>
+
+## Markdownlint  
 
 * 配置  
-    在项目任意目录创建 *.markdownlint.json* 可屏蔽部分功能
-```
+    在项目任意目录创建 *.markdownlint.jsonc* 可屏蔽部分功能
+
+```jsonc
 {
     "md033": false
     // 文档中不允许使用html语句
@@ -16,48 +21,45 @@
   }
 ```
 
-[**Markdown All in One 地址**](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-
 ### Markdown All in One使用教程  
+
+[**Markdown All in One 地址**](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
 目录
 
-- 1. 特点
-- 2. 常用快捷键
-- 3. 常用命令  
+* 1. 特点
+
+* 2. 常用快捷键
+
+* 3. 常用命令  
   
-### 1. 特点
-
-提供常用操作的快捷键  
-支持目录  
-支持同步预览(ctrl+shift+v)  
-轻松转换html和pdf文件  
-可格式化table(alt+shift+f)和task list(altvv+c)  
-支持特殊数学符号渲染
-  
-### 2. 常用快捷键
-
-粗体 ctrl+b  
-斜体 ctrl+i  
-删除线 alt+s  
-切换数学环境 ctrl+m  
-同步预览 ctrl+shift+v
-检查任务列表项 alt+c
-格式化表格 alt+shift+f
-格式化任务列表 alt+c
-
-### 3. 常用命令
-
-先按F1进入VSCode命令面板  
-自动创建目录 Create Table of Contents  
-更新目录 Update Table of Contents  
-添加/更新标题编号 Add/Update Section numbers  
+1. 特点  
+  提供常用操作的快捷键  
+  支持目录  
+  支持同步预览(ctrl+shift+v)  
+  轻松转换html和pdf文件  
+  可格式化table(alt+shift+f)和task list(altvv+c)  
+  支持特殊数学符号渲染  
+2. 常用快捷键
+  粗体 ctrl+b  
+  斜体 ctrl+i  
+  删除线 alt+s  
+  切换数学环境 ctrl+m  
+  同步预览 ctrl+shift+v
+  检查任务列表项 alt+c
+  格式化表格 alt+shift+f
+  格式化任务列表 alt+c
+3. 常用命令
+  先按F1进入VSCode命令面板  
+  自动创建目录 Create Table of Contents  
+  更新目录 Update Table of Contents  
+  添加/更新标题编号 Add/Update Section numbers  
 
 <details>
-  <summary><mark><font color=GRAY>点击查看详细内容</font></mark></summary>
+  <summary><mark><font color=GRAY>点击查看内容</font></mark></summary>
   <p> - 测试 测试测试</p>
   
-  <code>  
+  <code>
    for i in a:
     print(i)
   </code></pre>
@@ -100,7 +102,7 @@ aaa
 <a id=2>[链接二](https://baidu.com)</a>
 
 <a id=3>链接三</a>  
-（[回到触发点](#t)）  
+（[回到触发点](#t)）   
 
 这是一个链接到谷歌的[脚注]  
 
@@ -169,10 +171,10 @@ I get 10 times more traffic from [Google] than from [Yahoo][2] or [MSN][3].
 
 ![test](https://www.baidu.com/img/flexible/logo/pc/result.png)  
 
-[W3Cschool](http://www.w3cschool.cn/)   
+[W3Cschool](http://www.w3cschool.cn/)
 
 [链接文字][33]
-[33]: http://www.w3cschool.cn/ "链接文字"
+[33]: <http://www.w3cschool.cn/> "链接文字"
 
 ---
 </br>
