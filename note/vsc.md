@@ -10,12 +10,15 @@
 3. 修改hosts
 
     ```hosts
-       # fix git clone github project failed
-    140.82.113.3 github.com
-    199.232.5.194 github.global.ssl.fastly.net
-    192.30.253.120  codeload.github.com
+    # fix git clone github project failed
+    ---------------------------------------------
+    199.232.69.194 github.global.ssl.fastly.net
+    140.82.112.3 github.com
+    140.82.114.10 codeload.Github.com
     ```
 
+4. 刷新DNS缓存
+  
 ## 快捷键
 
 * 行复制：Ctrl + c
