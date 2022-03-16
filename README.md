@@ -1,2 +1,3 @@
-# zombiely-C-Study-notes
-zombiely/C-Study-notes
+# zombiely-Learning-notes
+
+天天瞎折腾
