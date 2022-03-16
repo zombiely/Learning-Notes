@@ -13,4 +13,4 @@
 示例2：
 -----------------------------------
 H3C交换机基于端口VLAN的配置示例
-https://blog.51cto.com/winda/305682
+https://blog.51cto.com/winda/30568
