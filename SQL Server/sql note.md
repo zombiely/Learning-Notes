@@ -238,3 +238,5 @@ FROM Persons
 
 * Character 字符串：
 ![图 1](../images/529406d40f07210e32e7310e8bf435926eb9fc19935ea577a42c32b8bfc8c310.png)  
+
+test
