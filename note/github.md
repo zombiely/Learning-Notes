@@ -2,7 +2,7 @@
 
 ## license chose  
 ### 选择 license
-![license](data/license%20chose.jpg)
+![license](..\images\license chose.jpg)
 
 ## 安装git  
 

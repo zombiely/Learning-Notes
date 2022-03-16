@@ -222,7 +222,19 @@ UNION
 SELECT column_name(s) FROM table_name2
 注释：默认地，UNION 操作符选取不同的值。如果允许重复的值，请使用 UNION ALL。
 
-## SQL SELECT INTO 语句可用于创建表的备份复件。
+## SQL SELECT INTO 语句可用于创建表的备份复件
+
 SELECT *
 INTO Persons_backup
 FROM Persons
+
+* GETDATE() 返回当前日期和时间
+* DATEPART() 返回日期/时间的单独部分
+* DATEADD() 在日期中添加或减去指定的时间间隔
+* DATEDIFF() 返回两个日期之间的时间
+* CONVERT() 用不同的格式显示日期/时间
+
+## SQL Server 数据类型
+
+* Character 字符串：
+![图 1](../images/529406d40f07210e32e7310e8bf435926eb9fc19935ea577a42c32b8bfc8c310.png)  
