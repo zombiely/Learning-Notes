@@ -236,7 +236,19 @@ FROM Persons
 
 ## SQL Server 数据类型
 
-* Character 字符串：
-![图 1](../images/529406d40f07210e32e7310e8bf435926eb9fc19935ea577a42c32b8bfc8c310.png)  
+<br/>
 
-test
+[w3c链接](https://www.w3school.com.cn/sql/sql_datatypes.asp)
+
+* Character 字符串：
+  ![图 1](../images/529406d40f07210e32e7310e8bf435926eb9fc19935ea577a42c32b8bfc8c310.png)  
+* Unicode 字符串：
+  ![图 1](../images/edf3c0688fd1f449a088f0cbf0eca60391e11f68a2d1868c3615f42a2dc1c5f3.png)  
+*Binary 类型：
+  ![图 2](../images/5ca3af7f27471e8cbb1d3df63bc47558a6ec54b9a2df06b954f7321286b84275.png)  
+* Number 类型：
+  *![图 3](../images/73565aec4ce29e0eeb8dbbe108bb843fb9b2966dba330ddb5456909f65b5e3d8.png)  
+* Date 类型：
+![图 4](../images/cfa0f334d20ac7aaea8b30e094dbb7839aaf65df5b995810db673ea2c32d3533.png)  
+* 其他数据类型：
+  ![图 5](../images/796aecab94c4a36e22d19fe5691e0529500ac328495e28f9c192e7e4fbf0438e.png)  
